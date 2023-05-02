@@ -20,3 +20,20 @@
 - [ ] Chapter 15
 - [ ] Chapter 16
 - [ ] Appendix A
+
+## Build scripts
+
+Building bash script
+```shell
+$ build.sh
+```
+
+Running bash script
+```shell
+$ run.sh
+```
+
+Running nushell script
+```shell
+$ run.nu
+```
