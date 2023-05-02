@@ -11,9 +11,9 @@ def build [] {
 	# Making the directory
 	(mkdir bin)
 
-	print "> Making the executable" | str join
+	print "> Making the executable"
 	clang $cFilenames $compilerFlags $optimiseFlags -o ./bin/lispy.exe
-	print "> Finished making the exectable" | str join
+	print "> Finished making the exectable"
 
 	# Executing the lispy file
 	.\bin\lispy.exe
