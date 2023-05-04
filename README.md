@@ -8,7 +8,7 @@
 - [x] Chapter 3
 - [x] Chapter 4
 - [x] Chapter 5
-- [ ] Chapter 6
+- [x] Chapter 6
 - [ ] Chapter 7
 - [ ] Chapter 8
 - [ ] Chapter 9
@@ -35,5 +35,18 @@ $ ./run.sh
 
 Running nushell script
 ```shell
+$ nu run.nu
+```
+or
+```shell
 $ ./run.nu
+```
+
+Install the npc c library
+```shell
+$ ./install.nu
+```
+or
+```shell
+$ nu install.nu
 ```
