@@ -1061,14 +1061,14 @@ lval* lval_read(mpc_ast_t* t) {
 int main(int argc, char** argv) {
 
 	/* Create Some Parsers */
-	Number = mpc_new("number");
-	Symbol = mpc_new("symbol");
-	String = mpc_new("string");
-	Comment = mpc_new("comment ");
-	Sexpr  = mpc_new("sexpr");
-	Qexpr  = mpc_new("qexpr");
-	Expr   = mpc_new("expr");
-	Lispy  = mpc_new("lispy");
+	Number  = mpc_new("number");
+	Symbol  = mpc_new("symbol");
+	String  = mpc_new("string");
+	Comment = mpc_new("comment");
+	Sexpr   = mpc_new("sexpr");
+	Qexpr   = mpc_new("qexpr");
+	Expr    = mpc_new("expr");
+	Lispy   = mpc_new("lispy");
 
 	/* Define them with the following Language */
 	mpca_lang(MPCA_LANG_DEFAULT,

@@ -17,8 +17,8 @@
 - [x] Chapter 12
 - [x] Chapter 13
 - [x] Chapter 14
-- [ ] Chapter 15
-- [ ] Chapter 16
+- [x] Chapter 15
+- [x] Chapter 16
 - [ ] Appendix A
 
 ## Build scripts
