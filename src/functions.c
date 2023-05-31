@@ -532,8 +532,8 @@ lval* builtin_op(lenv* e, lval* a, char* op) {
 				x = lval_err("Division by Zero!"); break;
 			}
 
-			lval_del(y);
-		 }
+			x->num /= y->num;
+		}
 	}
 	lval_del(a);
 	return x;
