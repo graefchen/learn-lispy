@@ -19,7 +19,7 @@
 - [x] Chapter 14
 - [x] Chapter 15
 - [x] Chapter 16
-- [ ] Appendix A
+- [x] Appendix A
 
 ## Build scripts
 
