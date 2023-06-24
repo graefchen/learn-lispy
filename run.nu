@@ -4,7 +4,7 @@ def build [
 	files: list
 ] {
 	let compilerFlags = (--std=c99 -Wall)
-	let optimiseFlags = (-O3)
+	let optimiseFlags = (-O1)
 
 	clang $files $compilerFlags $optimiseFlags -o ./bin/lispy.exe
 }
